@@ -1,15 +1,10 @@
 #ifndef GRAPH
 #define GRAPH
-#define MAX 100000
 #define V 6
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 struct graph {
-  unsigned int nversh;     // Число вершин
-  unsigned int (*mat)[V];  // Матрица n x n
+  unsigned int nversh;
+  unsigned int (*mat)[V];
   char* name[V];
 };
 
