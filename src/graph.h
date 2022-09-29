@@ -3,9 +3,9 @@
 #define V 6
 
 struct graph {
-  unsigned int nversh;
-  unsigned int (*mat)[V];
-  char* name[V];
+    unsigned int nversh; // Число вершин
+    unsigned int (*mat)[V]; // Матрица n x n
+    char* name[V];
 };
 
 void graph_clear(struct graph* g);
