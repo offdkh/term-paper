@@ -11,3 +11,4 @@
 !test
 !thirdparty
 !Makefile
+!.clang-format
