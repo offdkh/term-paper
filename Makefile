@@ -1,5 +1,7 @@
 all: bin/task_on_graph
 
+test: longest-test shortest-test shortest-route-test longest-route-test all-way-test
+
 longest-test: bin/longest-test
 
 shortest-test: bin/shortest-test 
