@@ -1,3 +1,13 @@
-bin
-build
-.vscode
+*
+!README.md
+!.gitignore
+!.gitkeep
+!*.c
+!*.h
+!bin
+!build
+!src
+!test
+!thirdparty
+!Makefile
+!.clang-format
